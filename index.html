@@ -39,12 +39,12 @@
     <a href="#">Join Now</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-      <picture>
-          <source media="(max-width: 320px)" srcset="images/facility-320w.jpg">
-          <source media="(max-width: 768px)" srcset="images/facility-768w.jpg">
-          <source media="(min-width: 1280px)" srcset="images/facility.jpg">
-          <img src="images/facility.jpg" alt="interior of gym facility showing treadmills, elliptical machines and a weight rack">
-      </picture>
+ <img alt="interior of gym facility showing treadmills, elliptical machines and a weight rack" 
+ srcset="
+ images/facility-320w.jpg 320w, 
+ images/facility-768w.jpg 768w, 
+ images/facility.jpg 1280w" 
+ sizes="100vw">
   </header>
   <nav>
     <h2>Main Navigation</h2>
@@ -83,13 +83,12 @@
       </ul>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-      <picture>
-          <source media="(max-width: 320px)" srcset="images/classes-320w.jpg">
-          <source media="(max-width: 768px)" srcset="images/classes-768w.jpg">
-          <source media="(min-width: 1280px)" srcset="images/classes.jpg">   
-         <img src="images/classes.jpg" alt="three people in an exercise class doing lunges with barbells over their shoulders">
-      </picture>
-
+ <img alt="three people in an exercise class doing lunges with barbells over their shoulders" srcset="
+ images/classes-320w.jpg 320w,
+ images/classes-768w.jpg 768w, 
+ images/classes.jpg 1280w
+ "
+ sizes="70vmin">
     </section>
     <section>
       <h2>Personal Training</h2>
@@ -100,13 +99,9 @@
       <a href="#">Book a Free Consultation today!</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-      <picture>
-        <source media="(max-width: 320px)" srcset="images/dumbells-320w.jpg">
-        <source media="(max-width: 768px)" srcset="images/dumbells-768w.jpg">
-        <source media="(min-width: 1280px)" srcset="images/dumbells.jpg">
-          <img src="images/dumbells.jpg" alt="rack of dumbells">
-      </picture>
-
+ <img alt="rack of dumbells in front of a mirror" srcset="images/dunbells-320w.jpg 320w,
+ images/dumbells-768w.jpg 768w,
+ images/dumbells.jpg 1280w" sizes="100vmin">
     </section>
     <section>
       <h2>Membership Options</h2>
